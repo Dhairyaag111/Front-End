@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Lists - Used to add anything on the list format. There are two tyes of list in html, ordered and unordered. -->
+    <!-- Ordered - Lists are in a fixed and specific order like 1,2,3,4.... i,ii,iii......, a,b,c,....., A,B,C,.... etc -->
+    <ol>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+    </ol>
+
+    <!-- Type can be specified with type attributes. Available types are : 1, A, a, I, i. The default one is 1,2,3.... -->
+    <ol type="i">
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+    </ol>
+
+    <!-- Starting value can also be spceified using start attrib. -->
+    <ol type="a" start="8">
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+    </ol>
+
+    <!-- Unordered List - There is no fixed specific order in this type of list. It has 3 types, circle, disc, square. The default is disc.-->
+    <ul type="square">
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+    </ul>
+
+    <!-- Table tag - Used to store data in tabular form that is in the rows and columns form. -->
+    <table border="1">
+      <caption>
+        Employee Information
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Nayan</td>
+        <td>22</td>
+        <td>nayanpathak@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Ujjwal</td>
+        <td>23</td>
+        <td>ujjwalpathak@gmail.com</td>
+      </tr>
+      <tr>
+        <td colspan="3">Col Span of 3 columns</td>
+      </tr>
+    </table>
+  </body>
 </html>
